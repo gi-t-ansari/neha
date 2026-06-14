@@ -1,0 +1,95 @@
+.card {
+  height: 31.25rem;
+  width: 18.75rem;
+  border: 1px solid gray;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+/* .main {
+  position: relative;
+  max-height: 500px;
+  overflow: auto;
+} */
+
+.image-container {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-bottom {
+  padding: 16px;
+}
+
+.title {
+  display: inline;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.pricing {
+  display: inline;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.container {
+  width: 30rem;
+  height: 30rem;
+  background-color: blue;
+  position: relative;
+}
+
+.sub-container {
+  width: 16rem;
+  height: 16rem;
+  background-color: aqua;
+  position: relative;
+}
+
+.inner-div {
+  width: 5rem;
+  height: 5rem;
+  background-color: pink;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.card-container {
+  height: 500px;
+  width: 300px;
+  border-radius: 8px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtSUGqGuSodk1_sYvGA-S-v9y_UVXNeF_MlQ&s");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.make-sticky {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+}
+
+.card-sub-container {
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.card-heading {
+  text-align: center;
+}
+
+.card-description {
+  text-align: center;
+}
