@@ -62,3 +62,66 @@ body {
   padding-block: 1.5rem;
   position: relative;
 }
+
+.footer-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: gray;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-section {
+  padding: 5rem;
+}
+
+.card {
+  padding: 16px 12px;
+  border: 1px solid lightgray;
+  border-radius: 2px;
+  width: 60%;
+  overflow: hidden;
+}
+
+.ct-heading {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.ct-description {
+  font-size: 18px;
+  font-weight: 500;
+  color: darkgray;
+}
+
+.card-image-wrapper {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-bottom {
+  padding-top: 12px;
+  border-top: 1px solid lightgray;
+}
+
+.cb-heading {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.cb-description {
+  font-size: 14px;
+  line-height: 160%;
+}
