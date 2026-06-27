@@ -66,6 +66,7 @@ p {
 } */
 
 .header {
+  height: 8vh;
   padding: 8px 16px;
   display: flex;
   justify-content: space-between;
@@ -95,102 +96,37 @@ p {
 }
 
 .body {
+  height: 92vh;
+  display: flex;
+}
+
+.left {
+  width: 15rem;
+  height: 100%;
+  background-color: #b8311b;
+  color: #fff;
+}
+
+.nav-links {
+  width: 100%;
+  display: block;
+  color: #fff;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.right {
   padding: 20px;
   display: flex;
   flex-direction: column;
   gap: 16px;
+  flex: 1;
 }
 
 .main-heading {
   font-size: 20px;
   font-weight: 600;
-}
-
-.data {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.sub-heading {
-  background-color: #f6c7c0;
-  padding: 8px 16px;
-  font-size: 18px;
-  font-weight: 600;
-  border-radius: 5px;
-}
-
-.cards-wrapper {
-  display: flex;
-  gap: 16px;
-}
-
-.card {
-  height: 10rem;
-  padding: 16px;
-  border-radius: 8px;
-  border: 1px solid #000;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.card-heading {
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.count {
-  font-size: 32px;
-  font-weight: 600;
-  color: #b8311b;
-}
-
-.tabs {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.actin-btn {
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  border: 1px solid #b8311b;
-  font-size: 0.875rem;
-  font-weight: 500;
-  cursor: pointer;
-}
-
-.check-in-btn {
-  color: #fff;
-  background-color: #b8311b;
-}
-
-.transaction-btn {
-  color: #b8311b;
-  background-color: #fff;
-}
-
-.table-wrapper {
-  border-radius: 0.5rem;
-  border: 1px solid #f6c7c0;
-  overflow: hidden;
-}
-
-.table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.t-heading {
-  background-color: #f6c7c0;
-  padding: 0.75rem;
-}
-
-.t-data {
-  padding: 0.75rem;
 }
